@@ -25,7 +25,7 @@ elif operation == '3':
 elif operation == '4':
   print('User chooses share')
 else:
-  print('Tidak valid')
+  print('no valid')
 
   # Menghitung dan Menampilkan Hasil Operasi  # Calculating and Displaying Operation Results
 
