@@ -5,7 +5,7 @@ print('math operations')
 print('1. amount \t [+]')
 print('2. subtract \t [-]')
 print('3. multiplication   \t [*]')
-print('4. distribution  \t [/]')
+print('4. division number  \t [/]')
 print('='* 25)
 
 operation = input ('select operation (1/2/3/4):')
