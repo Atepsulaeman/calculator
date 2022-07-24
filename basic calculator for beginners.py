@@ -2,8 +2,8 @@
 # Membuat Inputan User # Creating User Input
 print('='* 25)
 print('math operations')
-print('1. amount \t [+]')
-print('2. subtract \t [-]')
+print('1. amount           \t [+]')
+print('2. subtract         \t [-]')
 print('3. multiplication   \t [*]')
 print('4. division number  \t [/]')
 print('='* 25)
