@@ -42,5 +42,5 @@ elif operation == '4':
   results = number_1 / number_2
   print(f'Result of operation from {number_1} / {number_2} = {results}')
 else:
-  print('no valid')
+  print('no valid guys')
 
