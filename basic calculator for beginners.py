@@ -1,45 +1,46 @@
 """basic calculator for beginners by Atep Sulaeman"""
-# Membuat Inputan User
+# Membuat Inputan User # Creating User Input
 print('='* 25)
-print('operasi matematika')
-print('1. jumlah \t [+]')
-print('2. kurang \t [-]')
-print('3. kali   \t [*]')
-print('4. bagi   \t [/]')
+print('math operations')
+print('1. amount \t [+]')
+print('2. subtract \t [-]')
+print('3. multiplication   \t [*]')
+print('4. distribution  \t [/]')
 print('='* 25)
 
-operasi = input ('pilih operasi (1/2/3/4):')
-bilangan_1 = eval(input('masukan nilai pertama:'))
-bilangan_2 = eval(input('masukan nilai kedua:'))
+operation = input ('select operation (1/2/3/4):')
+number_1 = eval(input('enter first value:'))
+number_2 = eval(input('enter second value:'))
 
 
-#membuat percabangan dasar
+# Membuat percabangan dasar # Make basic branch
 print('=' * 25)
 
-if operasi == '1':
-  print('User memilih penjumlahan')
-elif operasi == '2':
-  print('User memilih pengurangan')
-elif operasi == '3':
-  print('User memilih perkalian')
-elif operasi == '4':
-  print('User memilih pembagian')
+if operation == '1':
+  print('User selects sum')
+elif operation == '2':
+  print('User selects subtraction')
+elif operation == '3':
+  print('User selects multiplication')
+elif operation == '4':
+  print('User chooses share')
 else:
   print('Tidak valid')
 
-  #Menghitung dan Menampilkan Hasil Operasi
+  # Menghitung dan Menampilkan Hasil Operasi  # Calculating and Displaying Operation Results
 
-if operasi == '1':
-  hasil = bilangan_1 + bilangan_2
-  print(f'Hasil operasi dari {bilangan_1} + {bilangan_2} = {hasil}')
-elif operasi == '2':
-  hasil = bilangan_1 - bilangan_2
-  print(f'Hasil operasi dari {bilangan_1} - {bilangan_2} = {hasil}')
-elif operasi == '3':
-  hasil = bilangan_1 * bilangan_2
-  print(f'Hasil operasi dari {bilangan_1} * {bilangan_2} = {hasil}')
-elif operasi == '4':
-  hasil = bilangan_1 / bilangan_2
-  print(f'Hasil operasi dari {bilangan_1} / {bilangan_2} = {hasil}')
+if operation == '1':
+  results = number_1 + number_2
+  print(f'Result of operation from {number_1} + {number_2} = {results}')
+elif operation == '2':
+  results = number_1 - number_2
+  print(f'Result of operation from {number_1} - {number_2} = {results}')
+elif operation == '3':
+  results = number_1 * number_2
+  print(f'Result of operation from {number_1} * {number_2} = {results}')
+elif operation == '4':
+  results = number_1 / number_2
+  print(f'Result of operation from {number_1} / {number_2} = {results}')
 else:
-  print('Tidak valid')
+  print('no valid')
+
