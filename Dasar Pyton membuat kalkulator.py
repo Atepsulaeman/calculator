@@ -42,6 +42,6 @@ elif operasi == '4':
   hasil = bilangan_1 / bilangan_2
   print(f'Hasil operasi dari {bilangan_1} / {bilangan_2} = {hasil}')
 else:
-  print('Tidak valid'
+  print('Tidak valid')
 
 
