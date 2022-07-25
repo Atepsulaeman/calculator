@@ -1,8 +1,8 @@
 """basic calculator for beginners by Atep Sulaeman"""
 # Membuat Inputan User # Creating User Input
-print('='* 25)
+print('='* 25) ## menghasilkan == 25 x sehingga menghasilkan seperti garis
 print('math operations')
-print('1. amount           \t [+]')
+print('1. addition         \t [+]')
 print('2. subtract         \t [-]')
 print('3. multiplication   \t [*]')
 print('4. division number  \t [/]')
